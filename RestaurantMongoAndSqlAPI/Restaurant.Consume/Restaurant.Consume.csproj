@@ -8,12 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.12.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.16" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Restaurant.API\Restaurant.API.csproj" />
     <ProjectReference Include="..\Restaurant.BusinessLayer\Restaurant.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Restaurant.DataAccessLayer\Restaurant.DataAccessLayer.csproj" />
     <ProjectReference Include="..\Restaurant.DTO\Restaurant.DTO.csproj" />
   </ItemGroup>
 

@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\features\\featurelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\features\\featurelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\controllers\\bookatablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\controllers\\bookatablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\bookatables\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\bookatables\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\controllers\\contactusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\controllers\\contactusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\shared\\components\\_adminlayoutsidebarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\shared\\components\\_adminlayoutsidebarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\shared\\components\\_adminlayoutscriptcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\shared\\components\\_adminlayoutscriptcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\shared\\components\\_adminlayoutheadcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\shared\\components\\_adminlayoutheadcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\errorpage\\notfount404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\errorpage\\notfount404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\shared\\components\\_adminlayoutfootercomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\shared\\components\\_adminlayoutfootercomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\wwwroot\\darkpan-1.0.0\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\wwwroot\\darkpan-1.0.0\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\adminlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\controllers\\errorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\controllers\\errorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\views\\categories\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\views\\categories\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|c:\\users\\semih\\source\\repos\\restaurantmongoandsqlapi\\restaurant.consume\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51EB20-3392-497A-A711-73E009E06913}|Restaurant.Consume\\Restaurant.Consume.csproj|solutionrelative:restaurant.consume\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,92 +59,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FeatureList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Features\\FeatureList.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Features\\FeatureList.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Features\\FeatureList.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\Features\\FeatureList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:39:58.161Z",
+              "Title": "BookATablesController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\BookATablesController.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Controllers\\BookATablesController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\BookATablesController.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Controllers\\BookATablesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:39:59.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\BookATables\\BookList.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\BookATables\\BookList.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\BookATables\\BookList.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\BookATables\\BookList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:38:34.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutSidebarComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutSidebarComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutSidebarComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutSidebarComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:37:22.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutScriptComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutScriptComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutScriptComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutScriptComponentPartial\\Default.cshtml",
+              "Title": "ContactUsesController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\ContactUsesController.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Controllers\\ContactUsesController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\ContactUsesController.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Controllers\\ContactUsesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:37:14.647Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:39:55.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutHeadComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutHeadComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutHeadComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutHeadComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "NotFount404.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\ErrorPage\\NotFount404.cshtml",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\ErrorPage\\NotFount404.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\ErrorPage\\NotFount404.cshtml",
+              "RelativeToolTip": "Restaurant.Consume\\Views\\ErrorPage\\NotFount404.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:37:09.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutFooterComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutFooterComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutFooterComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\Shared\\Components\\_AdminLayoutFooterComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:36:41.002Z",
+              "WhenOpened": "2025-06-03T15:32:57.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ErrorPage.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\ErrorPage.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Controllers\\ErrorPage.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\ErrorPage.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Controllers\\ErrorPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:32:26.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "404.html",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\wwwroot\\darkpan-1.0.0\\404.html",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\wwwroot\\darkpan-1.0.0\\404.html",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\wwwroot\\darkpan-1.0.0\\404.html",
+              "RelativeToolTip": "Restaurant.Consume\\wwwroot\\darkpan-1.0.0\\404.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwFYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-03T15:31:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\AdminLayout\\Index.cshtml",
-              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\AdminLayout\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\AdminLayout\\Index.cshtml",
-              "RelativeToolTip": "Restaurant.Consume\\Views\\AdminLayout\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Restaurant.Consume\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:36:34.527Z",
+              "WhenOpened": "2025-06-03T15:29:37.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Program.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Program.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Program.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:26:59.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:26:52.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Categories\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Views\\Categories\\CategoryList.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Views\\Categories\\CategoryList.cshtml",
+              "RelativeToolTip": "Restaurant.Consume\\Views\\Categories\\CategoryList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T15:26:17.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Restaurant.Consume\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.Consume\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Restaurant.Consume\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:26:14.895Z",
               "EditorCaption": ""
             }
           ]

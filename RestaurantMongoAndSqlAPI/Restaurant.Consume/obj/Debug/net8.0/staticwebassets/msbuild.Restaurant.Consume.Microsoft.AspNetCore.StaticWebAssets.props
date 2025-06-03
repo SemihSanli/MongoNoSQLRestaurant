@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yohvoyowm4</Fingerprint>
-      <Integrity>Ussu3tiOYKcqdwcgFrgyTH5ig33GKKU4I0xQBSGY22o=</Integrity>
+      <Fingerprint>hufar1ckhc</Fingerprint>
+      <Integrity>RzLHX13LiyaPsWVFAQli9+/x4rZt1GkdkW81DXGY54w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\darkpan-1.0.0\404.html'))</OriginalItemSpec>

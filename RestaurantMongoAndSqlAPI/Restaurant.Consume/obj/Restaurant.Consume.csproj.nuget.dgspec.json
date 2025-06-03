@@ -58,6 +58,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -191,6 +197,9 @@
               "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.BusinessLayer\\Restaurant.BusinessLayer.csproj": {
                 "projectPath": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.BusinessLayer\\Restaurant.BusinessLayer.csproj"
               },
+              "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.DataAccessLayer\\Restaurant.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.DataAccessLayer\\Restaurant.DataAccessLayer.csproj"
+              },
               "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.DTO\\Restaurant.DTO.csproj": {
                 "projectPath": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.DTO\\Restaurant.DTO.csproj"
               }
@@ -216,6 +225,10 @@
             "MailKit": {
               "target": "Package",
               "version": "[4.12.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -296,7 +309,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.16, )"
             },
@@ -442,6 +475,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[3.4.0, )"

@@ -84,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/ErrorPage/NotFount404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXE5vdEZvdW50NDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/Features/AddFeature.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZXNcQWRkRmVhdHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -116,6 +120,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/OurSpecials/AddOurSpecial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyU3BlY2lhbHNcQWRkT3VyU3BlY2lhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/Products/UpdateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Semih/source/repos/RestaurantMongoAndSqlAPI/Restaurant.Consume/Views/Services/AddService.cshtml]

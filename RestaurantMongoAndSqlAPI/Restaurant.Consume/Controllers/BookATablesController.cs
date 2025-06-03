@@ -72,7 +72,7 @@ namespace Restaurant.Consume.Controllers
         private async Task SendConfirmationEmail(CreateBookATableDTO booking)
         {
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Mongo Restaurant", "sanlisemh@gmail.com"));
+            message.From.Add(new MailboxAddress("Mongo Restaurant", "restorana ait mail"));
             message.To.Add(new MailboxAddress(booking.BookFullName, booking.BookEmail)); 
             message.Subject = "Rezervasyon Onayı";
 
@@ -83,7 +83,7 @@ namespace Restaurant.Consume.Controllers
 
             using var client = new SmtpClient();
             await client.ConnectAsync("smtp.gmail.com", 587, false);
-            await client.AuthenticateAsync("sanlisemh@gmail.com", "xjsz xhmb krxx yjif");
+            await client.AuthenticateAsync("restorana ait mail", "google key girilecek");
             await client.SendAsync(message);
             await client.DisconnectAsync(true);
         }

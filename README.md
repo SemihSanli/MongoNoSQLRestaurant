@@ -65,6 +65,17 @@ Bu projede **RESTful API** prensiplerine tam uyum sağlanmıştır:
 ---
 
 ## 🧰 Kullanılan Teknolojiler ve Özellikler
+- .NET 8
+- ASP.NET Core Web API
+- ASP.NET Core MVC
+- MongoDB
+- Microsoft SQL Server
+- MailKit
+- Google Maps API
+- Generic Repository Pattern
+- N Katmanlı Mimari
+- CleanCode Prensipleri
+- SOLID Prensipleri
 
 ### 🏗️ Generic Repository Design Pattern
 - Her entity için ayrı CRUD işlemleri yazmak yerine, generic yapılar kullanılarak kod tekrarı önlendi.

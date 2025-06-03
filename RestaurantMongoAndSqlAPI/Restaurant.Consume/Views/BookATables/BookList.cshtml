@@ -1,0 +1,48 @@
+﻿@model List<ResultATableDTO>
+@{
+    ViewData["Title"] = "BookList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Rezervason Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Ad Soyad</th>
+                        <th class="text-warning" scope="col">Mail Adresi</th>
+                        <th class="text-warning" scope="col">Telefon</th>
+                        <th class="text-warning" scope="col">Tarih</th>
+                        <th class="text-warning" scope="col">Kişi Sayısı</th>
+                        <th class="text-warning" scope="col">Detayı</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.BookFullName</td>
+                            <td class="text-white">@item.BookEmail</td>
+                            <td class="text-white">@item.BookPhone</td>
+                            <td class="text-white">@item.BookDate.ToShortDateString()</td>
+                            <td class="text-white">@item.BookPersonCount</td>
+                            <td class="text-white">@item.BookMessage</td>
+                            <td class="text-white"><a href="/BookATables/DeleteBook/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+

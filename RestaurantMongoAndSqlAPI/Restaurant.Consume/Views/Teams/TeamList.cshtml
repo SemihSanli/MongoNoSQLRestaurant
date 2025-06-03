@@ -1,0 +1,54 @@
+﻿@model List<ResultTeamDTO>
+@{
+    ViewData["Title"] = "TeamList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Çalışanlarımız Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Görsel Yolu</th>
+                        <th class="text-warning" scope="col">Adı Soyadı</th>
+                        <th class="text-warning" scope="col">Ünvanı</th>
+                        <th class="text-warning" scope="col">Linkedin</th>
+                        <th class="text-warning" scope="col">Instagram</th>
+                        <th class="text-warning" scope="col">Facebook</th>
+                        <th class="text-warning" scope="col">X</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td>
+                                <img src="@item.TeamImageURL" alt="Resim" width="80" height="80" style="object-fit: cover; border-radius: 10px;" />
+                                </td>
+                            <td class="text-white">@item.TeamFullName</td>
+                            <td class="text-white">@item.TeamTitle</td>
+                            <td class="text-white">@item.TeamSocialMedia1</td>
+                            <td class="text-white">@item.TeamSocialMedia2</td>
+                            <td class="text-white">@item.TeamSocialMedia3</td>
+                            <td class="text-white">@item.TeamSocialMedia4</td>
+                            <td class="text-white"><a href="/Teams/DeleteTeam/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Teams/UpdateTeam/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Teams/AddTeam/" class="btn btn-outline-info">Yeni Çalışan Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

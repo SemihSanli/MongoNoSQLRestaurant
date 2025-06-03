@@ -1,0 +1,52 @@
+﻿@model UpdateTeamDTO
+@{
+    ViewData["Title"] = "UpdateTeam";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="card-body">
+        <div class="form-group">
+            <label for="TeamFullName">Ad Soyad</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="TeamFullName" id="TeamFullName">
+
+        </div>
+        <div class="form-group">
+            <label for="TeamTitle">Ünvan</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamTitle" id="TeamTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="TeamImageURL">Görsel</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamImageURL" id="TeamImageURL">
+
+        </div>
+
+        <div class="form-group">
+            <label for="TeamSocialMedia1">Linkedin</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamSocialMedia1" id="TeamSocialMedia1">
+
+        </div>
+        <div class="form-group">
+            <label for="TeamSocialMedia2">Instagram</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamSocialMedia2" id="TeamSocialMedia2">
+
+        </div>
+
+        <div class="form-group">
+            <label for="TeamSocialMedia3">X</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamSocialMedia3" id="TeamSocialMedia3">
+
+        </div>
+
+        <div class="form-group">
+            <label for="TeamSocialMedia4">Facebook</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="TeamSocialMedia4" id="TeamSocialMedia4">
+
+        </div>
+        <br />
+        <button class="btn btn-outline-primary">Çalışan Bilgisini Ekle</button>
+    </div>
+</form>
+

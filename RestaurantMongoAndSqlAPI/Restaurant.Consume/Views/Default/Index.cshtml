@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+@await Component.InvokeAsync("_DefaultHeadComponentPartial")
+<body class="index-page">
+    @await Component.InvokeAsync("_DefaultHeaderComponentPartial")
+    <main class="main">
+        @await Component.InvokeAsync("_DefaultFeatureComponentPartial")
+        @await Component.InvokeAsync("_DefaultAboutComponentPartial") 
+        @await Component.InvokeAsync("_DefaultWhyUsComponentPartial")   
+        @await Component.InvokeAsync("_DefaultMenuComponentPartial")  <
+        @await Component.InvokeAsync("_DefaultSpecialsComponentPartial")  
+        @await Component.InvokeAsync("_DefaultEventsComponentPartial")
+        @await Component.InvokeAsync("_DefaultBookATableComponentPartial") 
+        @await Component.InvokeAsync("_DefaultTestimonialComponentPartial") 
+        @await Component.InvokeAsync("_DefaultGalleryComponentPartial")
+        @await Component.InvokeAsync("_DefaultChefsComponentPartial") 
+        @await Component.InvokeAsync("_DefaultContactComponentPartial")
+    </main>
+    @await Component.InvokeAsync("_DefaultFooterComponentPartial")
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    @await Component.InvokeAsync("_DefaultScriptComponentPartial")
+</body>
+</html>

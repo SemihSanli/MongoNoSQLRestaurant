@@ -1,0 +1,46 @@
+﻿@model CreateContactUsDTO
+
+
+<div class="col-lg-8">
+    <form action="/ContactUses/SendMessage" method="post" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-4">
+
+            <div class="col-md-6">
+                <input type="text"  class="form-control" placeholder="Ad Soyad" asp-for="ContactUsFullName">
+            </div>
+
+            <div class="col-md-6 ">
+                <input type="email" class="form-control"  placeholder="Mail Adresiniz" asp-for="ContactUsEmail" >
+            </div>
+
+            <div class="col-md-12">
+                <input type="text" class="form-control"  placeholder="Subject" asp-for="ContactUsSubject" >
+            </div>
+
+            <div class="col-md-12">
+                <textarea class="form-control"  rows="6" placeholder="Message" asp-for="ContactUsMessage" ></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+               
+
+                <button type="submit" class="btn btn-outline-warning">Mesaj Gönder</button>
+            </div>
+
+        </div>
+      
+    </form>
+</div><!-- End Contact Form -->
+@if (ViewBag.Success != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            Swal.fire({
+                icon: 'success',
+                title: '@ViewBag.Success',
+                showConfirmButton: true
+            });
+        });
+    </script>
+}

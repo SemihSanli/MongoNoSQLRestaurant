@@ -1,0 +1,14 @@
+﻿@model List<ResultProductDTO>
+<div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+    @foreach(var item in Model){
+    <div class="col-lg-6 menu-item isotope-item filter-starters">
+        <img src="@item.ProductImageURL" class="menu-img" alt="">
+        <div class="menu-content">
+            <a href="#">@item.ProductName</a><span>₺ @item.ProductPrice</span>
+        </div>
+        <div class="menu-ingredients">
+            @item.ProducContent
+        </div>
+    </div>
+    }<!-- Menu Item -->
+</div><!-- Menu Container -->

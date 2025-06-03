@@ -1,0 +1,6 @@
+﻿@model List<ResultContactDetailDTO>
+@foreach(var item in Model){
+<div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+    <iframe style="border:0; width: 100%; height: 400px;" src="@item.ContactDetailLocationMapURL" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div><!-- End Google Maps -->
+}

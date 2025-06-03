@@ -1,0 +1,46 @@
+﻿@model List<ResultContactUsDTO>
+@{
+    ViewData["Title"] = "ContactUsList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Hakkımda Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Ad Soyad</th>
+                        <th class="text-warning" scope="col">Mail Adresi</th>
+                        <th class="text-warning" scope="col">Konu</th>
+                        <th class="text-warning" scope="col">Mesaj</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Detay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.ContactUsFullName</td>
+                            <td class="text-white">@item.ContactUsEmail</td>
+                            <td class="text-white">@item.ContactUsSubject</td>
+                            <td class="text-white">@item.ContactUsMessage</td>
+                            <td class="text-white"><a href="/ContactUses/DeleteContactUs/@item.Id" class="btn btn-outline-primary">Sil</a></td>
+                            <td class="text-white"><a href="/ContactUses/SeeContactUsDetail/@item.Id" class="btn btn-outline-info">Mesaj Detayını Görüntüle</a></td>
+                            <td class="text-white"></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+

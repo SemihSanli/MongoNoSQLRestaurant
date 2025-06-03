@@ -1,0 +1,24 @@
+﻿@model CreateWhyUsDTO
+@{
+    ViewData["Title"] = "AddWhyUs";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="WhyUsTitle">Başlık</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="WhyUsTitle" id="WhyUsTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="WhyUsDetail">Ürün İçeriği Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="WhyUsDetail" id="WhyUsDetail">
+
+        </div>
+
+        <br />
+        <button class="btn btn-outline-primary">Neden Biz? Bilgisini Ekle</button>
+    </div>
+</form>
+

@@ -1,0 +1,30 @@
+﻿@model GetContactUsDTO
+@{
+    ViewData["Title"] = "SeeContactUsDetail";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="card-body">
+        <div class="form-group">
+            <label for="ContactUsFullName">Ad Soyad</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ContactUsFullName" id="ContactUsFullName">
+        </div>
+        <div class="form-group">
+            <label for="ContactUsEmail">Mail Adresi</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ContactUsEmail" id="ContactUsEmail">
+        </div>
+        <div class="form-group">
+            <label for="ContactUsSubject">Konu</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ContactUsSubject" id="ContactUsSubject">
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="ContactUsSubject">İçerik</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ContactUsMessage" id="ContactUsSubject">
+        </div>
+        <br />
+    </div>
+</form>
+

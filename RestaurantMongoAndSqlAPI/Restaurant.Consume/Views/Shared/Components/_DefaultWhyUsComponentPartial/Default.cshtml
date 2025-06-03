@@ -1,0 +1,37 @@
+﻿@model List<ResultWhyUsDTO>
+@{
+    int count = 0;
+}
+<section id="why-us" class="why-us section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Neden Biz?</h2>
+        <p>Neden Restoranımızı Tercih Etmelisiniz?</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+            @foreach (var item in Model)
+            {
+                count++;
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="card-item">
+                        <span>@count</span>
+
+                        <h4><a href="" class="stretched-link">@item.WhyUsTitle</a></h4>
+                        <p>@item.WhyUsDetail</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card Item -->
+            }
+        </div>
+
+    </div>
+
+</section>

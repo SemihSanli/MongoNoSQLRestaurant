@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Cr5KbI8Apo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Semih\\source\\repos\\RestaurantMongoAndSqlAPI\\Restaurant.EntityLayer\\Restaurant.EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Semih\\.nuget\\packages\\mongodb.bson\\3.4.0\\mongodb.bson.3.4.0.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

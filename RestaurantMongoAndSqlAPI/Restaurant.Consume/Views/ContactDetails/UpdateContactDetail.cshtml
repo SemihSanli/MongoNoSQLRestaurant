@@ -1,0 +1,39 @@
+﻿@model UpdateContactDetailDTO
+@{
+    ViewData["Title"] = "UpdateContactDetail";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="card-body">
+        <div class="form-group">
+            <label for="ContactDetailLocation">Lokasyon Giriniz</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ContactDetailLocation" id="ContactDetailLocation">
+
+        </div>
+        <div class="form-group">
+            <label for="ContactDetailLocationMapURL">Lokasyon Google Map Bağlantısı</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ContactDetailLocationMapURL" id="ContactDetailLocationMapURL">
+
+        </div>
+        <div class="form-group">
+            <label for="ContactDetailOpenHours">Açılış - Kapanış Zamanı</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ContactDetailOpenHours" id="ContactDetailOpenHours">
+
+        </div>
+        <div class="form-group">
+            <label for="ContactDetailCallUs">Telefon</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ContactDetailCallUs" id="ContactDetailCallUs">
+
+        </div>
+        <div class="form-group">
+            <label for="ContactDetailEmailUs">Mail Adresi</label>
+            <textarea rows="5" class="form-control text-dark bg-light" asp-for="ContactDetailEmailUs" id="ContactDetailEmailUs"></textarea>
+        </div>
+
+        <br />
+        <button class="btn btn-outline-primary">İletişim Bilgisini Güncelle</button>
+    </div>
+</form>
+

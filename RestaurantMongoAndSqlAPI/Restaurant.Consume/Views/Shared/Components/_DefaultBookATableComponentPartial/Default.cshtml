@@ -1,0 +1,55 @@
+﻿@model CreateBookATableDTO
+<section id="book-a-table" class="book-a-table section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Rezervasyon</h2>
+        <p>Rezervasyon Yapın</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <form action="/BookATables/Booking" method="post" role="form" >
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <input type="text"  class="form-control" placeholder="Ad Soyad" asp-for="BookFullName" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <input type="email" class="form-control"  placeholder="Mail Adresi" asp-for="BookEmail" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <input type="text" class="form-control"   placeholder="Telefon No" asp-for="BookPhone" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <input type="date" class="form-control"  placeholder="Tarih" asp-for="BookDate" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <input type="number" class="form-control"   placeholder="Kişi Sayısı" asp-for="BookPersonCount" required="">
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                <textarea class="form-control"  rows="5" placeholder="Mesajınız" asp-for="BookMessage"></textarea>
+            </div>
+
+            <div class="text-center mt-3">
+              
+                <button type="submit" class="btn btn-outline-warning">Rezervasyon Oluştur</button>
+            </div>
+        </form><!-- End Reservation Form -->
+
+    </div>
+    @if (ViewBag.Success != null)
+    {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                Swal.fire({
+                    icon: 'success',
+                    title: '@ViewBag.Success',
+                    showConfirmButton: true
+                });
+            });
+        </script>
+    }
+</section>

@@ -1,0 +1,31 @@
+﻿@model List<ResultCategoryDTO>
+<section id="menu" class="menu section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Menümüz</h2>
+        <p>Menümüze Göz Atın</p>
+    </div><!-- End Section Title -->
+
+    <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="col-lg-12 d-flex justify-content-center">
+                 @foreach (var item in Model)
+                    {
+                <ul class="menu-filters isotope-filters">
+                   
+                        <li class="filter-active" data-filter="@item.Id">@item.CategoryName</li>
+                   
+                </ul>
+                }
+            </div>
+
+        </div><!-- Menu Filters -->
+
+       
+        @await Component.InvokeAsync("_DefaultProductComponentPartial")
+    </div>
+
+</section>

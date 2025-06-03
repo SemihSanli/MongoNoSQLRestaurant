@@ -1,0 +1,56 @@
+﻿@model List<ResultContactDetailDTO>
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>İletişim</h2>
+        <p>Bize Ulaşın</p>
+    </div><!-- End Section Title -->
+    @await Component.InvokeAsync("_DefaultContactGoogleMapComponentPartial")
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+            @foreach(var item in Model){
+            <div class="col-lg-4">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                        <h3>Konumumuz</h3>
+                            <p>@item.ContactDetailLocation</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                        <h3>Çalışma Saatlerimiz</h3>
+                        <p>@item.ContactDetailOpenHours</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                        <h3>Telefon Numaramız</h3>
+                        <p>@item.ContactDetailCallUs</p>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                        <h3>Mail Adresimiz</h3>
+                        <p>@item.ContactDetailEmailUs</p>
+                    </div>
+                </div><!-- End Info Item -->
+                    
+            </div>
+            }
+            @await Component.InvokeAsync("_DefaultContactMessageComponentPartial")
+
+        </div>
+
+    </div>
+
+</section>

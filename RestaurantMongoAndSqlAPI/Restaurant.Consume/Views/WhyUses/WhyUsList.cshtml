@@ -1,0 +1,41 @@
+﻿@model List<ResultWhyUsDTO>
+@{
+    ViewData["Title"] = "WhyUsList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Neden Biz? Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Başlık</th>
+                        <th class="text-warning" scope="col">Detay</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.WhyUsTitle</td>
+                            <td class="text-white">@item.WhyUsDetail</td>
+                            <td class="text-white"><a href="/WhyUses/DeleteWhyUs/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/WhyUses/UpdateWhyUs/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/WhyUses/AddWhyUs/" class="btn btn-outline-info">Yeni Neden Biz? Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>

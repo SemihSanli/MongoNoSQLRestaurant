@@ -1,0 +1,49 @@
+﻿@model List<ResultProductDTO>
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Hakkımda Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Ürün Adı</th>
+                        <th class="text-warning" scope="col">Ürün İçeriği</th>
+                        <th class="text-warning" scope="col">Fiyatı</th>
+                        <th class="text-warning" scope="col">Resim Yolu</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.ProductName</td>
+                            <td class="text-white">@item.ProducContent</td>
+                            <td class="text-white">@item.CategoryName</td>
+                            <td class="text-white">@item.ProductPrice</td>
+                            <td >
+                                <img src="@item.ProductImageURL" alt="Resim" width="80" height="80" style="object-fit: cover; border-radius: 10px;" />
+                            </td>
+                            <td class="text-white"><a href="/Products/DeleteProduct/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Products/UpdateProduct/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Products/AddProduct/" class="btn btn-outline-info">Yeni Ürün Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

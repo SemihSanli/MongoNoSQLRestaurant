@@ -1,0 +1,28 @@
+﻿@model CreateFeatureDTO
+@{
+    ViewData["Title"] = "AddFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="FeatureTitle">Başlığı Giriniz</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="FeatureTitle" id="FeatureTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="FeatureSubTitle">Alt Başlığı Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="FeatureSubTitle" id="FeatureSubTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="FeatureImageURL">Resim Yolunu  Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="FeatureImageURL" id="FeatureImageURL">
+
+        </div>
+        <br />
+        <button class="btn btn-outline-primary">Öne Çıkanlar Bilgisini Ekle</button>
+    </div>
+</form>
+

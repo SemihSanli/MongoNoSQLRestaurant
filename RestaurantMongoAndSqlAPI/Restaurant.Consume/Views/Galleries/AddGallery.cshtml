@@ -1,0 +1,18 @@
+﻿@model CreateGalleryDTO
+@{
+    ViewData["Title"] = "AddGallery";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="GalleryImageURL">Başlığı Giriniz</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="GalleryImageURL" id="GalleryImageURL">
+
+        </div>
+        <br />
+        <button class="btn btn-outline-primary">Galeriye Yeni Görsel Bilgisini Ekle</button>
+    </div>
+</form>
+

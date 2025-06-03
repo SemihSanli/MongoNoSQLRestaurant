@@ -1,0 +1,40 @@
+﻿@model List<ResultCategoryDTO>
+@{
+    ViewData["Title"] = "CategoryList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Kategori Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Kategori Adı</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.CategoryName</td>
+                            <td class="text-white"><a href="/Categories/DeleteCategory/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Categories/UpdateCategory/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Categories/AddCategory/" class="btn btn-outline-info">Yeni Kategori Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

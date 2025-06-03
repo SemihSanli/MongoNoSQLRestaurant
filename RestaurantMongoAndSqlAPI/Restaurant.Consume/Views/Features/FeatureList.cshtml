@@ -1,0 +1,44 @@
+﻿@model List<ResultFeatureDTO>
+@{
+    ViewData["Title"] = "FeatureList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Öne Çıkanlar Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Başlık</th>
+                        <th class="text-warning" scope="col">Alt Başlık</th>
+                        <th class="text-warning" scope="col">Görsel</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td class="text-white">@item.FeatureTitle</td>
+                            <td class="text-white">@item.FeatureSubTitle</td>
+                            <td class="text-white">@item.FeatureImageURL</td>
+                            <td class="text-white"><a href="/Features/DeleteFeature/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Features/UpdateFeature/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Features/AddFeature/" class="btn btn-outline-info">Yeni Öne Çıkan Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

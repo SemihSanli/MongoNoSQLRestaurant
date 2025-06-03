@@ -1,0 +1,34 @@
+﻿@model CreateOurSpecialDTO
+@{
+    ViewData["Title"] = "AddOurSpecial";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="OurSpecialTitle">Başlığı Giriniz</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="OurSpecialTitle" id="OurSpecialTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="OurSpecialColumnTitle">Alt Başlığı Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="OurSpecialColumnTitle" id="OurSpecialColumnTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="OurSpecialContent">İçerik</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="OurSpecialContent" id="OurSpecialContent">
+
+        </div>
+        <div class="form-group">
+            <label for="OurSpecialImageURL">Görsel URL Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="OurSpecialImageURL" id="OurSpecialImageURL">
+
+        </div>
+
+        <br />
+        <button class="btn btn-outline-primary">Yeni Restoranımıza Özel Ürün Bilgisi Ekle</button>
+    </div>
+</form>
+

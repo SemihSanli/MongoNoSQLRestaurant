@@ -1,0 +1,37 @@
+﻿@model UpdateProductDTO
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="card-body">
+        <div class="form-group">
+            <label for="ProductName">Ürün Adı Giriniz</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ProductName" id="ProductName">
+
+        </div>
+        <div class="form-group">
+            <label for="ProducContent">Ürün İçeriği Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ProducContent" id="ProducContent">
+
+        </div>
+        <div class="form-group">
+            <label for="ProductPrice">Fiyatı</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ProductPrice" id="ProductPrice">
+
+        </div>
+        <div class="form-group">
+            <label for="ProductImageURL">Görsel URL Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ProductImageURL" id="ProductImageURL">
+
+        </div>
+        <select asp-for="CategoryId" class="form-control" asp-items="@(ViewBag.Categories as List<SelectListItem>)">
+            <option value="">Kategori Seçin</option>
+        </select>
+        <br />
+        <button class="btn btn-outline-primary">Ürün Bilgisini Ekle</button>
+    </div>
+</form>
+

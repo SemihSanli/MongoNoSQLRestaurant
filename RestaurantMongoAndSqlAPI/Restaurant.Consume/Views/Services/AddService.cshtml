@@ -1,0 +1,46 @@
+﻿@model CreateServiceDTO
+@{
+    ViewData["Title"] = "AddService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<form method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="ServiceTitle">Hizmet Adı</label>
+            <input type="text" class="form-control  text-dark bg-light" asp-for="ServiceTitle" id="ServiceTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="ServicePrice">Fiyatı</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ServicePrice" id="ServicePrice">
+
+        </div>
+        <div class="form-group">
+            <label for="ServiceSubTitle">Alt Başlık</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ServiceSubTitle" id="ServiceSubTitle">
+
+        </div>
+        <div class="form-group">
+            <label for="ServiceImageURL">Görsel URL Giriniz</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ServiceImageURL" id="ServiceImageURL">
+
+        </div>
+
+        <div class="form-group">
+            <label for="ServiceArticle">Madde</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ServiceArticle" id="ServiceArticle">
+
+        </div>
+
+        <div class="form-group">
+            <label for="ServiceMinDescription">Açıklama</label>
+            <input type="text" class="form-control text-dark bg-light" asp-for="ServiceMinDescription" id="ServiceMinDescription">
+
+        </div>
+
+        <br />
+        <button class="btn btn-outline-primary">Hizmet Bilgisini Ekle</button>
+    </div>
+</form>
+

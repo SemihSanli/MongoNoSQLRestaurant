@@ -1,0 +1,15 @@
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\bin\Debug\net8.0\Restaurant.DataAccessLayer.deps.json
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\bin\Debug\net8.0\Restaurant.DataAccessLayer.dll
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\bin\Debug\net8.0\Restaurant.DataAccessLayer.pdb
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\bin\Debug\net8.0\Restaurant.EntityLayer.dll
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\bin\Debug\net8.0\Restaurant.EntityLayer.pdb
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaura.2B567DC0.Up2Date
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.dll
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\refint\Restaurant.DataAccessLayer.dll
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\Restaurant.DataAccessLayer.pdb
+C:\Users\Semih\source\repos\RestaurantMongoAndSqlAPI\Restaurant.DataAccessLayer\obj\Debug\net8.0\ref\Restaurant.DataAccessLayer.dll

@@ -1,0 +1,59 @@
+﻿@model List<ResultServiceDTO>
+<section id="events" class="events section">
+
+    <img class="slider-bg" src="~/restaurantly-1.0.0/assets/img/events-bg.jpg" alt="" data-aos="fade-in">
+     
+    <div class="container">
+          
+            <div class="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
+                <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+            </script>
+            <div class="swiper-wrapper">
+                    @foreach (var item in Model)
+                    {
+                <div class="swiper-slide">
+                    <div class="row gy-4 event-item">
+                       
+                        <div class="col-lg-6">
+                            <img src="@item.ServiceImageURL" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3>@item.ServiceTitle</h3>
+                            <div class="price">
+                                    <p><span>₺ @item.ServicePrice</span></p>
+                            </div>
+                            <p class="fst-italic">
+                               @item.ServiceSubTitle
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-circle"></i> <span>@item.ServiceArticle</span></li>
+                            </ul>
+                            <p>
+                             @item.ServiceMinDescription
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div><!-- End Slider item -->
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        
+    </div>
+   
+</section>

@@ -1,0 +1,52 @@
+﻿@model List<ResultServiceDTO>
+@{
+    ViewData["Title"] = "ServiceList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Hizmetler Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Görsel</th>
+                        <th class="text-warning" scope="col">Hizmet Adı</th>
+                        <th class="text-warning" scope="col">Fiyatı</th>
+                        <th class="text-warning" scope="col">Alt Başlığı</th>
+                        <th class="text-warning" scope="col">Madde</th>
+                        <th class="text-warning" scope="col">Açıklama</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td>
+                                <img src="@item.ServiceImageURL" alt="Resim" width="80" height="80" style="object-fit: cover; border-radius: 10px;" />
+                            </td>
+                            <td class="text-white">@item.ServiceTitle</td>
+                            <td class="text-white">@item.ServicePrice</td>
+                            <td class="text-white">@item.ServiceSubTitle</td>
+                            <td class="text-white">@item.ServiceArticle</td>
+                            <td class="text-white">@item.ServiceMinDescription</td>
+                            <td class="text-white"><a href="/Services/DeleteService/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Services/UpdateService/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Services/AddService/" class="btn btn-outline-info">Yeni Hizmet Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

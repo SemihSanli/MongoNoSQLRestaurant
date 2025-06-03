@@ -1,0 +1,42 @@
+﻿@model List<ResultGalleryDTO>
+@{
+    ViewData["Title"] = "GalleryList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="col-12">
+
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Galeri Düzenleme Paneli</h6>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-warning" scope="col">#</th>
+                        <th class="text-warning" scope="col">Resim Yolu</th>
+                        <th class="text-warning" scope="col">Sil</th>
+                        <th class="text-warning" scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td class="text-white">@count</td>
+                            <td >
+                                <img src="@item.GalleryImageURL" alt="Resim" width="80" height="80" style="object-fit: cover; border-radius: 10px;" />
+                            </td>
+                            <td class="text-white"><a href="/Galleries/DeleteGallery/@item.Id" class="btn btn-outline-primary ">Sil</a></td>
+                            <td class="text-white"><a href="/Galleries/UpdateGallery/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a href="/Galleries/AddGallery/" class="btn btn-outline-info">Galeriye Yeni Görsel Bilgisi Gir</a>
+        </div>
+    </div>
+
+</div>
+

@@ -178,6 +178,10 @@ Yönetici aşağıdaki Entity’ler üzerinde **CRUD** işlemleri gerçekleştir
  ![ImageAlt](https://github.com/SemihSanli/MongoNoSQLRestaurant/blob/b036e69c421eedef08a24ac2828203a1427c767e/Images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-03%20164403.png)
     ![ImageAlt](https://github.com/SemihSanli/MongoNoSQLRestaurant/blob/b036e69c421eedef08a24ac2828203a1427c767e/Images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-03%20164419.png)
 
+   ![ImageAlt](https://github.com/SemihSanli/MongoNoSQLRestaurant/blob/0e168b6ab5eefdc3fbd02bef6000cc931e709d66/Images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-03%20183930.png)
+ ![ImageAlt](https://github.com/SemihSanli/MongoNoSQLRestaurant/blob/0e168b6ab5eefdc3fbd02bef6000cc931e709d66/Images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-03%20183910.png)
+    ![ImageAlt](https://github.com/SemihSanli/MongoNoSQLRestaurant/blob/0e168b6ab5eefdc3fbd02bef6000cc931e709d66/Images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-03%20183850.png)
+
    
 
 

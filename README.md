@@ -3,7 +3,7 @@
 
 # 🍽️ Restoran Rezervasyon ve Yönetim Sistemi
 
-Bu proje, modern bir restoran için **N Katmanlı Mimari** ve **RESTful API** prensipleriyle geliştirilmiş profesyonel bir web uygulamasıdır. Kullanıcılar rezervasyon oluşturabilirken, yöneticiler de içerik yönetimini kolayca gerçekleştirebilir. Tüm sistem temiz kod anlayışıyla katmanlara ayrılmıştır.
+Bu proje, modern bir restoran için **N Katmanlı Mimari** ve **RESTful API** prensipleriyle geliştirilmiş  bir web uygulamasıdır. Kullanıcılar rezervasyon oluşturabilirken, yöneticiler de içerik yönetimini kolayca gerçekleştirebilir. Tüm sistem temiz kod anlayışıyla katmanlara ayrılmıştır.
 
 ---
 
